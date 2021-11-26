@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(todolist)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(todolist main.cpp
+        TaskList.h TaskList.cpp
+        DeadlineTask.h DeadlineTask.cpp
+        Task.cpp Task.h
+        TimePoint.h TimePoint.cpp)
