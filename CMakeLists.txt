@@ -7,4 +7,4 @@ add_executable(todolist main.cpp
         TaskList.h TaskList.cpp
         DeadlineTask.h DeadlineTask.cpp
         Task.cpp Task.h
-        TimePoint.h TimePoint.cpp)
+        TimePoint.h TimePoint.cpp TodoList.h)

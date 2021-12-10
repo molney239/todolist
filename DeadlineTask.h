@@ -1,11 +1,14 @@
+#pragma once
+
 #include "Task.h"
 
-class DeadlineTask : Task {
+class DeadlineTask : public Task {
+public:
 
-    DeadlineTask(std::string name, std::time_t deadline_task_point, std::string text = "");
+    DeadlineTask(std::string name, TimePoint deadline_task_point, std::string text = "");
 
 protected:
 
-    std::time_t deadline_time_point;
+    TimePoint deadline_time_point;
 
 };
